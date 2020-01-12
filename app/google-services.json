@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "71375675644",
+    "firebase_url": "https://wmsx-2dfb1.firebaseio.com",
+    "project_id": "wmsx-2dfb1",
+    "storage_bucket": "wmsx-2dfb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71375675644:android:3113ab9ed4cfaa7c27f779",
+        "android_client_info": {
+          "package_name": "com.example.wmsx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71375675644-9u6flodhpog0nnlgk4bsr3043oi2r2jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wmsx",
+            "certificate_hash": "710e0a70032de7063615f0f0c60052e228dd6dcb"
+          }
+        },
+        {
+          "client_id": "71375675644-6u5uof7qgr54na9dr2788kgsf9pl8liq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjS4JdmrDZcXvlRqnglenPN_UNLSWf3HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71375675644-6u5uof7qgr54na9dr2788kgsf9pl8liq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

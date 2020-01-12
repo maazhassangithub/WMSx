@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorPrimary"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/start_login_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/welcome_to_lappit_chat_app"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="217dp"
+        android:backgroundTint="@color/colorAccent"
+        android:shadowColor="@color/colorAccent"
+        android:text="Already Have Account"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/need_to_new_account"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+</RelativeLayout>
